@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>staż</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="mój kolejny projekt"/>
+  <meta name="keywords" content="Java script, początki, HTML,CSS, programowanie"/>
+  <meta name="author" content="Karolina Rażniak"/>
+  <meta property="og:title" contelt="ćwiczenie programowe"/>
+  <meta name="description" content="mój następny projekt samodzielny"/>
+  <link rel="stylesheet" type="text/css" media="screen" charset="utf-8" href="input.css"/>
+  <link rel="stylesheet" href="index-main.scss">
+  <script src="input.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+<fieldset>
+
+<legend>Prosze o wybranie potrzebnych rzeczy do pracy na stanowisku Front-end</legend>
+
+<div class="form-group">
+  <label class="col-md-4 control-label">First Name</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Last Name</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+       <div class="form-group">
+  <label class="col-md-4 control-label">E-Mail</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+    </div>
+  </div>
+</div>   
+<div class="form-group">
+  <label class="col-md-4 control-label">Phone</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+  <input name="phone" placeholder="(+48)111-222-333" class="form-control" type="text">
+    </div>
+  </div>
+</div>  
+<div class="form-group">
+  <label class="col-md-4 control-label">Address</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="address" placeholder="Address" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label">City</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="city" placeholder="city" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+<div class="form-group">
+    <label class="col-md-4 control-label">Zip Code</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+    <input name="zip" placeholder="Zip Code" class="form-control"  type="text">
+      </div>
+  </div>
+  </div>
+<!--<div class="form-group"> 
+  <label class="col-md-4 control-label">Computer</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="state" class="form-control selectpicker">
+      <option value="">Please select your state</option>
+      <option>Laptop Lenovo IdeaPad 5 14ARE05 14</option>
+      <option>Laptop ASUS X409FA-EK638 14</option>
+      <option >Laptop HP 15s-eq1124nw</option>
+    </select>
+  </div>
+</div>-->
+<from>
+    <label for="computer">Computer:</label>
+        <select id="computer">
+            <optgroup label="Lenowo">
+                <option>IdeaPad 5 14ARE05 14</option>
+            </optgroup>
+            <optgroup label="HP">
+                <option>15s-eq1124nw</option>
+            </optgroup>
+            <optgroup label="Asus">
+                <option>X409FA-EK638 14</option>
+            </optgroup>
+    </select>
+</from>
+<div class="form-group"> 
+    <label class="col-md-4 control-label">Monitor</label>
+      <div class="col-md-4 selectContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+      <select name="state" class="form-control selectpicker">
+        <option value=" " >Please select your state</option>
+        <option>Monitor SAMSUNG F24T350FHR 24</option>
+        <option>Monitor LG 27MP60G-B 27</option>
+        <option>Monitor MSI Optix G241 24</option>
+        <option>Inna</option>
+    </select>
+</div>
+</div>
+</div>
+<div class="form-group"> 
+    <label class="col-md-4 control-label">Mouse</label>
+      <div class="col-md-4 selectContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+      <select name="state" class="form-control selectpicker">
+        <option value="">Please select your state</option>
+        <option>ASUS WT465 v2</option>
+        <option>Logitech G305</option>
+        <option>SteelSeries Rival 5</option>
+    </select>
+</div>
+</div>
+</div>
+<div class="form-group"> 
+    <label class="col-md-4 control-label">Desk</label>
+      <div class="col-md-4 selectContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+      <select name="state" class="form-control selectpicker">
+        <option value="">Please select your state</option>
+        <option>TROTTENBiurko z regulacją wysokości</option>
+        <option>BEKANTBiurko narożne</option>
+        <option>IDÅSENBiurko</option>
+    </select>
+</div>
+</div>
+</div>
+<div class="form-group"> 
+    <label class="col-md-4 control-label">Chair</label>
+      <div class="col-md-4 selectContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+      <select name="state" class="form-control selectpicker">
+        <option value="">Please select your state</option>
+        <option>Materiałowy Fotel Gamingowy Gamvis EXPERT</option>
+        <option>Materiałowy Fotel Gamingowy Gamvis PHANTOM</option>
+        <option>Materiałowy Fotel Gamingowy Gamvis FURIOSO</option>
+    </select>
+</div>
+</div>
+</div>
+<div class="form-group"> 
+    <label class="col-md-4 control-label">Speakers</label>
+      <div class="col-md-4 selectContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+      <select name="state" class="form-control selectpicker">
+        <option value="">Please select your state</option>
+        <option>Samsung SWA-8500S</option>
+        <option>Edifier HECATE G1000</option>
+        <option>Edifier R1100</option>
+    </select>
+</div>
+</div>
+</div>
+<div class="form-group"> 
+    <label class="col-md-4 control-label">Lamp</label>
+      <div class="col-md-4 selectContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+      <select name="state" class="form-control selectpicker">
+        <option value="">Please select your state</option>
+        <option>FORSÅ</option>
+        <option>RANARP</option>
+        <option>BAROMETER</option>
+    </select>
+</div>
+</div>
+</div>
+<div class="form-group"> 
+    <label class="col-md-4 control-label">Antyviris</label>
+      <div class="col-md-4 selectContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+      <select name="state" class="form-control selectpicker">
+        <option value="">Please select your state</option>
+        <option>Kaspersky Small Office Security</option>
+        <option>Avast Premium Security</option>
+        <option>McAfee Total Protection</option>
+    </select>
+</div>
+</div>
+</div>
+ <div class="form-group">
+                        <label class="col-md-4 control-label">Packet Office?</label>
+                        <div class="col-md-4">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="hosting" value="yes" /> Yes
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="hosting" value="no" /> No
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+<div class="form-group">
+  <label class="col-md-4 control-label">Comments</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+        	<textarea class="form-control" name="comment" placeholder="Project Description"></textarea>
+  </div>
+  </div>
+</div>
+
+<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4">
+    <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+  </div>
+</div>
+</fieldset>
+</form>
+</div>
+    </div>
+</body>

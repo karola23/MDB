@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>staż</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="mój kolejny projekt"/>
+  <meta name="keywords" content="Java script, początki, HTML,CSS, programowanie"/>
+  <meta name="author" content="Karolina Rażniak"/>
+  <meta property="og:title" contelt="ćwiczenie programowe"/>
+  <meta name="description" content="mój następny projekt samodzielny"/>
+  <link rel="stylesheet" type="text/css" media="screen" charset="utf-8" href="input.css"/>
+  <link rel="stylesheet" href="index-main.scss">
+  <script src="input-cd.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <form method='post' id='f1'>
+        <h2>Komputery</h2>
+        <p><label>Laptop Lenovo IdeaPad 5 14ARE05 14</label><input type='checkbox' name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='2599' /></p>
+        <p><label>Laptop ASUS X409FA-EK638 14</label><input type='checkbox' name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='2349' /></p>
+        <p><label>Laptop HP 15s-eq1124nw</label><input type='checkbox' name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='2699' /></p>
+        <br>
+        <h2>Monitory</h2>
+        <p><label>Monitor SAMSUNG F24T350FHR 24</label><input type='checkbox' name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='599' /></p>
+        <p><label>Monitor MSI Optix G241 24</label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='749' /></p>
+        <p><label>Monitor LG 27MP60G-B 27</label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='939' /></p>
+       <br>
+        <h2>Myszki</h2>
+        <p><label>ASUS WT465 v2</label><input type='checkbox' name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='70' /></p>
+        <p><label>Logitech G305</label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='200' /></p>
+        <p><label>SteelSeries Rival 5</label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='239' /></p>
+       <br>
+        <h2>Biurko</h2>
+        <p><label>TROTTENBiurko z regulacją wysokości</label><input type='checkbox' name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='999' /></p>
+        <p><label>BEKANTBiurko narożne</label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='1199' /></p>
+        <p><label>Monitor MSI Optix G241 24</label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='939' /></p>
+        <br>
+        <h2>Krzesło</h2>
+        <p><label>Materiałowy Fotel Gamingowy Gamvis EXPERT</label><input type='checkbox' name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='737' /></p>
+        <p><label>Materiałowy Fotel Gamingowy Gamvis PHANTOM</label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='847' /></p>
+        <p><label>Materiałowy Fotel Gamingowy Gamvis FURIOSO</label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='997' /></p>
+        <br>
+        <h2>Głośniki</h2>
+        <p><label>Głośniki Samsung SWA-8500S</label><input type='checkbox' name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='499' /></p>
+        <p><label>Edifier HECATE G1000 </label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='249' /></p>
+        <p><label>Edifier R1100</label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='419' /></p>
+       <br>
+        <h2>Słuchawki</h2>
+        <p><label>Razer Kraken X USB</label><input type='checkbox' name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='179' /></p>
+        <p><label>Razer Kraken</label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='209' /></p>
+        <p><label>SteelSeries Arctis 3 2019 </label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='349' /></p>
+        <br>
+        <h2>Lampki</h2>
+        <p><label>FORSÅ</label><input type='checkbox' name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='70'/></p>
+        <p><label>RANARP</label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='179'/></p>
+        <p><label>BAROMETER</label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='149'/></p>
+        <br>
+        <h2>Pakiet Office</h2>
+        <p><label>Microsoft 365 Personal</label><input type='checkbox' name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='299.9'/></p>
+          <br>
+        <h2>Antywirus</h2>
+        <p><label>Kaspersky Small Office Security</label><input type='checkbox' name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='157'/></p>
+        <p><label>Avast Premium Security</label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='64'/></p>
+        <p><label>McAfee Total Protection</label><input type='checkbox'  name="ch1" onclick="licz()"/>
+                 <input type='hidden' name="ch3" value='49'/></p>
+        <br>
+        <p><label><strong><h1>SUMA</h1></strong></label><input type='text' id="wynik"/></p>
+      </form>
+</div>
+</body>
+</html>      
